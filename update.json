@@ -1,7 +1,7 @@
 {
-    "versionCode":  610282357,
-    "versionName":  "6.1.0.610282357",
+    "versionCode":  610290009,
+    "versionName":  "610290009",
     "apkUrl":  "https://github.com/sushiguo/xuanxuan-release/releases/latest/download/xuanxuan-music.apk",
-    "changelog":  "关于：去掉作者行；只在点开关于时检查更新，先清空上次结果避免升级按钮残留",
-    "publishedAt":  "2026-10-29 00:04:08"
+    "changelog":  "版号口径改为直接用 9 位版号（versionName=versionCode，去掉 6.1.0. 前缀）；关于去掉作者行，点开时才检查更新",
+    "publishedAt":  "2026-10-29 00:13:06"
 }
