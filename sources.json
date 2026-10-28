@@ -1,0 +1,104 @@
+{
+  "version": "1.0",
+  "description": "轩轩音乐音源配置（运行时加载）。只保留实测能返回真实搜索结果的源；失效源一经确认即整条删除，不保留占位。",
+  "sources": [
+    {
+      "id": "netease",
+      "name": "网易云",
+      "searchUrl": "https://music.163.com/api/cloudsearch/pc?s={keyword}&type=1&limit=50",
+      "playUrlTemplate": "https://music.163.com/api/song/enhance/player/url/v1?ids=[{id}]&level=standard&encodeType=mp3",
+      "lyricUrlTemplate": "https://music.163.com/api/song/lyric?id={id}&lv=1&kv=1&tv=1",
+      "enabled": true,
+      "priority": 15,
+      "type": "DIRECT",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Referer": "https://music.163.com",
+        "Cookie": "appver=2.0.2"
+      }
+    },
+    {
+      "id": "netease2",
+      "name": "网易云备用",
+      "searchUrl": "https://music.163.com/api/cloudsearch/pc?s={keyword}&type=1&limit=30",
+      "playUrlTemplate": "https://music.163.com/api/song/enhance/player/url/v1?ids=[{id}]&level=standard&encodeType=mp3",
+      "lyricUrlTemplate": "https://music.163.com/api/song/lyric/v1?id={id}&lv=1&kv=1&tv=1",
+      "enabled": true,
+      "priority": 10,
+      "type": "DIRECT",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Referer": "https://music.163.com",
+        "Cookie": "appver=8.7.01"
+      }
+    },
+    {
+      "id": "qq",
+      "name": "QQ音乐",
+      "searchUrl": "https://c.y.qq.com/soso/fcgi-bin/client_search_cp?w={keyword}&n=20&format=json",
+      "playUrlTemplate": "https://u.y.qq.com/cgi-bin/musicu.fcg?data=%7B%22req_0%22%3A%7B%22module%22%3A%22vkey.GetVkeyServer%22%2C%22method%22%3A%22CgiGetVkey%22%2C%22param%22%3A%7B%22guid%22%3A%220%22%2C%22songmid%22%3A%5B%22{id}%22%5D%2C%22songtype%22%3A%5B0%5D%2C%22uin%22%3A%220%22%2C%22loginflag%22%3A1%2C%22platform%22%3A%2220%22%7D%7D%7D",
+      "lyricUrlTemplate": "https://c.y.qq.com/lyric/fcgi-bin/fcg_query_lyric_new.fcg?songmid={id}&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq&needNewCode=0",
+      "enabled": true,
+      "priority": 90,
+      "type": "DIRECT",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Referer": "https://y.qq.com"
+      }
+    },
+    {
+      "id": "kugou",
+      "name": "酷狗",
+      "searchUrl": "https://songsearch.kugou.com/song_search_v2?keyword={keyword}&page=1&pagesize=20&format=json",
+      "playUrlTemplate": "https://m.kugou.com/app/i/getSongInfo.php?cmd=playInfo&hash={id}",
+      "lyricUrlTemplate": "",
+      "enabled": true,
+      "priority": 85,
+      "type": "DIRECT",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Referer": "https://www.kugou.com"
+      }
+    },
+    {
+      "id": "kuwo",
+      "name": "酷我",
+      "searchUrl": "https://search.kuwo.cn/r.s?all={keyword}&ft=music&itemset=web_2013&client=kt&pn=0&rn=20&rformat=json&encoding=utf8",
+      "playUrlTemplate": "https://antiserver.kuwo.cn/anti.s?type=convert_url&format=mp3&response=url&rid=MUSIC_{id}",
+      "lyricUrlTemplate": "https://m.kuwo.cn/newh5/singles/songinfoandlrc?musicId={id}",
+      "enabled": true,
+      "priority": 80,
+      "type": "DIRECT",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Referer": "https://m.kuwo.cn/"
+      }
+    },
+    {
+      "id": "qijieya",
+      "name": "Meting聚合",
+      "searchUrl": "https://api.qijieya.cn/meting/?type=search&id={keyword}",
+      "playUrlTemplate": "https://api.qijieya.cn/meting/?server=netease&type=url&id={id}",
+      "lyricUrlTemplate": "https://api.qijieya.cn/meting/?type=lrc&id={id}",
+      "enabled": true,
+      "priority": 70,
+      "type": "DIRECT",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
+    },
+    {
+      "id": "gdstudio",
+      "name": "GD聚合",
+      "searchUrl": "https://music-api.gdstudio.xyz/api.php?types=search&source=netease&name={keyword}&count=20",
+      "playUrlTemplate": "https://music-api.gdstudio.xyz/api.php?types=url&source=netease&id={id}&br=320",
+      "lyricUrlTemplate": "https://music-api.gdstudio.xyz/api.php?types=lyric&source=netease&id={id}",
+      "enabled": true,
+      "priority": 60,
+      "type": "DIRECT",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
+    }
+  ]
+}
