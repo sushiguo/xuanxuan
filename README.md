@@ -36,6 +36,6 @@ https://ghfast.top/https://github.com/sushiguo/xuanxuan-release/releases/latest/
 
 ## 当前版本
 
-- versionName: 6.1.0.610282335
-- versionCode: 610282335
-- 更新时间: 2026-10-28 23:45:29
+- versionName: 6.1.0.610282357
+- versionCode: 610282357
+- 更新时间: 2026-10-29 00:04:08
