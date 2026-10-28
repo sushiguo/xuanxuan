@@ -12,6 +12,16 @@
 
 > 国内直连 raw.githubusercontent.com / github.com 会超时；备用 gh-proxy.com、jsDelivr、GitHub 直连。
 
+## 设备点击升级
+
+浏览器打开即下载 APK（Content-Type: application/vnd.android.package-archive），下载完点通知即可覆盖升级、保留数据：
+
+https://gh-proxy.com/https://github.com/sushiguo/xuanxuan-release/releases/latest/download/xuanxuan-music.apk
+
+备用镜像（同一文件）：
+
+https://ghfast.top/https://github.com/sushiguo/xuanxuan-release/releases/latest/download/xuanxuan-music.apk
+
 ## 应用内升级
 
 设置 → 检查更新 → 拉取 update.json → 与本地 versionCode 比较 → 下载 APK → 系统安装器。
@@ -26,6 +36,6 @@
 
 ## 当前版本
 
-- versionName: 6.1.0.610282103
-- versionCode: 610282103
-- 更新时间: 2026-10-28 21:13:57
+- versionName: 6.1.0.610282255
+- versionCode: 610282255
+- 更新时间: 2026-10-28 23:02:57
