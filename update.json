@@ -1,7 +1,7 @@
 {
-    "versionCode":  610282103,
-    "versionName":  "6.1.0.610282103",
+    "versionCode":  610282255,
+    "versionName":  "6.1.0.610282255",
     "apkUrl":  "https://github.com/sushiguo/xuanxuan-release/releases/latest/download/xuanxuan-music.apk",
-    "changelog":  "新增应用内检查更新：拉取版本清单、下载 APK 后拉起系统安装器；管理源新增从仓库同步音源（可新增为自定义源，不覆盖内置）；修复自定义音源重启后丢失 headers/type 导致聚合源失效",
-    "publishedAt":  "2026-10-28 21:13:57"
+    "changelog":  "设置-版本：关于内容与本机9位版号合并；远端版号更大时版号尾部出现升级按钮；升级弹窗支持隐藏到后台继续下载，完成后自动拉起安装器",
+    "publishedAt":  "2026-10-28 23:02:57"
 }
