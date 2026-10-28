@@ -3,5 +3,5 @@
     "versionName":  "6.1.0.610282039",
     "apkUrl":  "https://github.com/sushiguo/xuanxuan-release/releases/latest/download/xuanxuan-music.apk",
     "changelog":  "新增应用内检查更新（拉 update.json 下载 APK 后拉起系统安装器）；管理源新增从仓库同步音源（可新增为自定义源，不覆盖内置）；修复自定义音源重启后丢失 headers/type 导致 AGGREGATE/METING 源失效",
-    "publishedAt":  "2026-10-28 20:50:30"
+    "publishedAt":  "2026-10-28 20:51:11"
 }
