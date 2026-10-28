@@ -4,11 +4,13 @@
 
 ## 应用端地址（固定不变）
 
-| 用途 | 地址 |
+| 用途 | 地址（应用内自动逐个尝试） |
 | --- | --- |
-| 版本清单 | https://raw.githubusercontent.com/sushiguo/xuanxuan-release/main/update.json |
-| 音源订阅 | https://raw.githubusercontent.com/sushiguo/xuanxuan-release/main/sources.json |
-| APK 直链 | https://github.com/sushiguo/xuanxuan-release/releases/latest/download/xuanxuan-music.apk |
+| 版本清单 | https://ghfast.top/https://raw.githubusercontent.com/sushiguo/xuanxuan-release/main/update.json |
+| 音源订阅 | https://ghfast.top/https://raw.githubusercontent.com/sushiguo/xuanxuan-release/main/sources.json |
+| APK 直链 | https://ghfast.top/https://github.com/sushiguo/xuanxuan-release/releases/latest/download/xuanxuan-music.apk |
+
+> 国内直连 raw.githubusercontent.com / github.com 会超时；备用 gh-proxy.com、jsDelivr、GitHub 直连。
 
 ## 应用内升级
 
@@ -24,6 +26,6 @@
 
 ## 当前版本
 
-- versionName: 6.1.0.610282039
-- versionCode: 610282039
-- 更新时间: 2026-10-28 20:51:11
+- versionName: 6.1.0.610282103
+- versionCode: 610282103
+- 更新时间: 2026-10-28 21:13:57
