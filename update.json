@@ -1,17 +1,17 @@
 {
-    "versionCode":  610290827,
-    "versionName":  "610290827",
+    "versionCode":  610291217,
+    "versionName":  "610291217",
     "apkUrl":  "https://github.com/sushiguo/xuanxuan-release/releases/latest/download/xuanxuan-music.apk",
-    "size":  26848673,
-    "sha256":  "3da632527a3146ec1df75bfab203418c0c4610369be970851162ac66f0205dad",
-    "changelog":  "升级更可靠：切后台/锁屏继续下载（前台服务），通知栏显示进度/速度/剩余时间并可取消；暂定后可从断点续传；下载完校验大小、sha256、包名与版本号，同版本已缓存则秒装安装；下载仍多镜像并行分片。",
-    "publishedAt":  "2026-10-29 08:35:23",
+    "size":  26848653,
+    "sha256":  "cadb10774e57429b20dc74ea04df123df5120832dadeeddad29b747c944641d7",
+    "changelog":  "修复 610290827 首次启动即崩溃（NoSuchMethodError: XuanXuanMusicTheme）：该包由陈旧编译产物拼出，已全量重建并真机冷启动验证通过。功能与上一版一致（前台服务下载、断点续传、sha256/包名校验、缓存秒装）。请更新到此版。",
+    "publishedAt":  "2026-10-29 12:26:55",
     "variants":  [
                      {
                          "abi":  "universal",
                          "url":  "https://github.com/sushiguo/xuanxuan-release/releases/latest/download/xuanxuan-music.apk",
-                         "size":  26848673,
-                         "sha256":  "3da632527a3146ec1df75bfab203418c0c4610369be970851162ac66f0205dad"
+                         "size":  26848653,
+                         "sha256":  "cadb10774e57429b20dc74ea04df123df5120832dadeeddad29b747c944641d7"
                      }
                  ]
 }
