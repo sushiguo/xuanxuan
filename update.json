@@ -1,17 +1,17 @@
 {
-    "versionCode":  610291234,
-    "versionName":  "610291234",
-    "apkUrl":  "https://github.com/sushiguo/xuanxuan-release/releases/latest/download/xuanxuan-music.apk",
-    "size":  26848666,
-    "sha256":  "07c380df5d95dcc6ada39c66459ecdc804be4670e73f6100c038344fc33dda6b",
-    "changelog":  "去掉「我的」页设置区多余的「设置」大标题（其下紧接「外观与屏幕 / 播放 / 下载与存储 / 其它」四个分组标题，两层灰字重复）。其余功能不变。",
-    "publishedAt":  "2026-10-29 12:38:53",
+    "versionCode":  610291653,
+    "versionName":  "610291653",
+    "apkUrl":  "https://github.com/sushiguo/xuanxuan/releases/latest/download/xuanxuan-music.apk",
+    "size":  26848660,
+    "sha256":  "467704a75c014f53f383c402ca8cbb4d6f383cae1e945664e36ba70258b02b65",
+    "changelog":  "更新「我的 → 指引」文案：补齐 7 套主题、我的→更新源换源、关于内检查更新并支持暂停/续传/隐藏后台；同时客户端发布地址改用改名后的 sushiguo/xuanxuan。",
+    "publishedAt":  "2026-10-29 17:25:33",
     "variants":  [
                      {
                          "abi":  "universal",
-                         "url":  "https://github.com/sushiguo/xuanxuan-release/releases/latest/download/xuanxuan-music.apk",
-                         "size":  26848666,
-                         "sha256":  "07c380df5d95dcc6ada39c66459ecdc804be4670e73f6100c038344fc33dda6b"
+                         "url":  "https://github.com/sushiguo/xuanxuan/releases/latest/download/xuanxuan-music.apk",
+                         "size":  26848660,
+                         "sha256":  "467704a75c014f53f383c402ca8cbb4d6f383cae1e945664e36ba70258b02b65"
                      }
                  ]
 }
