@@ -1,7 +1,17 @@
 {
-    "versionCode":  610290009,
-    "versionName":  "610290009",
+    "versionCode":  610290827,
+    "versionName":  "610290827",
     "apkUrl":  "https://github.com/sushiguo/xuanxuan-release/releases/latest/download/xuanxuan-music.apk",
-    "changelog":  "版号口径改为直接用 9 位版号（versionName=versionCode，去掉 6.1.0. 前缀）；关于去掉作者行，点开时才检查更新",
-    "publishedAt":  "2026-10-29 00:13:06"
+    "size":  26848673,
+    "sha256":  "3da632527a3146ec1df75bfab203418c0c4610369be970851162ac66f0205dad",
+    "changelog":  "升级更可靠：切后台/锁屏继续下载（前台服务），通知栏显示进度/速度/剩余时间并可取消；暂定后可从断点续传；下载完校验大小、sha256、包名与版本号，同版本已缓存则秒装安装；下载仍多镜像并行分片。",
+    "publishedAt":  "2026-10-29 08:35:23",
+    "variants":  [
+                     {
+                         "abi":  "universal",
+                         "url":  "https://github.com/sushiguo/xuanxuan-release/releases/latest/download/xuanxuan-music.apk",
+                         "size":  26848673,
+                         "sha256":  "3da632527a3146ec1df75bfab203418c0c4610369be970851162ac66f0205dad"
+                     }
+                 ]
 }
