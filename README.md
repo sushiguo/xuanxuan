@@ -6,9 +6,9 @@
 
 | 用途 | 地址（应用内自动逐个尝试） |
 | --- | --- |
-| 版本清单 | https://ghfast.top/https://raw.githubusercontent.com/sushiguo/xuanxuan-release/main/update.json |
-| 音源订阅 | https://ghfast.top/https://raw.githubusercontent.com/sushiguo/xuanxuan-release/main/sources.json |
-| APK 直链 | https://ghfast.top/https://github.com/sushiguo/xuanxuan-release/releases/latest/download/xuanxuan-music.apk |
+| 版本清单 | https://ghfast.top/https://raw.githubusercontent.com/sushiguo/xuanxuan/main/update.json |
+| 音源订阅 | https://ghfast.top/https://raw.githubusercontent.com/sushiguo/xuanxuan/main/sources.json |
+| APK 直链 | https://ghfast.top/https://github.com/sushiguo/xuanxuan/releases/latest/download/xuanxuan-music.apk |
 
 > 国内直连 raw.githubusercontent.com / github.com 会超时；备用 gh-proxy.com、jsDelivr、GitHub 直连。
 
@@ -16,11 +16,11 @@
 
 浏览器打开即下载 APK（Content-Type: application/vnd.android.package-archive），下载完点通知即可覆盖升级、保留数据：
 
-https://gh-proxy.com/https://github.com/sushiguo/xuanxuan-release/releases/latest/download/xuanxuan-music.apk
+https://gh-proxy.com/https://github.com/sushiguo/xuanxuan/releases/latest/download/xuanxuan-music.apk
 
 备用镜像（同一文件）：
 
-https://ghfast.top/https://github.com/sushiguo/xuanxuan-release/releases/latest/download/xuanxuan-music.apk
+https://ghfast.top/https://github.com/sushiguo/xuanxuan/releases/latest/download/xuanxuan-music.apk
 
 ## 应用内升级
 
@@ -36,6 +36,6 @@ https://ghfast.top/https://github.com/sushiguo/xuanxuan-release/releases/latest/
 
 ## 当前版本
 
-- versionName: 610291234
-- versionCode: 610291234
-- 更新时间: 2026-10-29 12:38:53
+- versionName: 610291653
+- versionCode: 610291653
+- 更新时间: 2026-10-29 17:25:33
