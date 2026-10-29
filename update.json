@@ -1,17 +1,17 @@
 {
-    "versionCode":  610291217,
-    "versionName":  "610291217",
+    "versionCode":  610291234,
+    "versionName":  "610291234",
     "apkUrl":  "https://github.com/sushiguo/xuanxuan-release/releases/latest/download/xuanxuan-music.apk",
-    "size":  26848653,
-    "sha256":  "cadb10774e57429b20dc74ea04df123df5120832dadeeddad29b747c944641d7",
-    "changelog":  "修复 610290827 首次启动即崩溃（NoSuchMethodError: XuanXuanMusicTheme）：该包由陈旧编译产物拼出，已全量重建并真机冷启动验证通过。功能与上一版一致（前台服务下载、断点续传、sha256/包名校验、缓存秒装）。请更新到此版。",
-    "publishedAt":  "2026-10-29 12:26:55",
+    "size":  26848666,
+    "sha256":  "07c380df5d95dcc6ada39c66459ecdc804be4670e73f6100c038344fc33dda6b",
+    "changelog":  "去掉「我的」页设置区多余的「设置」大标题（其下紧接「外观与屏幕 / 播放 / 下载与存储 / 其它」四个分组标题，两层灰字重复）。其余功能不变。",
+    "publishedAt":  "2026-10-29 12:38:53",
     "variants":  [
                      {
                          "abi":  "universal",
                          "url":  "https://github.com/sushiguo/xuanxuan-release/releases/latest/download/xuanxuan-music.apk",
-                         "size":  26848653,
-                         "sha256":  "cadb10774e57429b20dc74ea04df123df5120832dadeeddad29b747c944641d7"
+                         "size":  26848666,
+                         "sha256":  "07c380df5d95dcc6ada39c66459ecdc804be4670e73f6100c038344fc33dda6b"
                      }
                  ]
 }
